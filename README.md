@@ -11,6 +11,15 @@ Big Data targets include Flume, Kafka, HDFS, Hive, HBase, Oracle NoSQL,
 Cassandra, and others. BDGlue processes data captured in real-time by 
 Oracle GoldenGate from relational database sources.
 
+##Prerequisities
+
+You will require to install Oracle GoldenGate for Big Data installed. Oracle GoldenGate for Big Data can be download from any of the following 2 locations:
+
+1. Oracle Technology Network Website : http://www.oracle.com/technetwork/middleware/goldengate/downloads/index.html
+2. Oracle Support Website ; http://support.oracle.com (note that you need to have valid login credentials)
+
+You can find latest Oracle GoldenGate for Big Data documentation at http://docs.oracle.com/goldengate/bd123010/gg-bd/index.html
+
 ## Building this project
 First, get this repository into your local environment:
 
@@ -32,3 +41,4 @@ You will need to configure two environment variables:
 
 Assumptions: gmake, Maven, and Java SE 8 are all installed and 
 configured.
+
